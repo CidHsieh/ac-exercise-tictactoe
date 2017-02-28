@@ -30,7 +30,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Cross.png"/>
                                 <connections>
-                                    <action selector="action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uaG-Rp-o4p"/>
+                                    <action selector="Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="acw-IT-wVn"/>
+                                    <action selector="action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ghH-xG-XNj"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pay-zC-Pyd">
@@ -38,6 +39,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Cross.png"/>
                                 <connections>
+                                    <action selector="Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hhs-Ty-7RQ"/>
                                     <action selector="action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fLO-2F-CPL"/>
                                 </connections>
                             </button>
@@ -46,6 +48,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Cross.png"/>
                                 <connections>
+                                    <action selector="Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tJi-3e-pcw"/>
                                     <action selector="action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wyn-qy-pcP"/>
                                 </connections>
                             </button>
@@ -54,6 +57,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Cross.png"/>
                                 <connections>
+                                    <action selector="Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H6Q-We-Gfx"/>
                                     <action selector="action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aOz-Jt-tp6"/>
                                 </connections>
                             </button>
@@ -62,6 +66,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Cross.png"/>
                                 <connections>
+                                    <action selector="Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8bA-DP-Uhe"/>
                                     <action selector="action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gud-Q3-oya"/>
                                 </connections>
                             </button>
@@ -70,6 +75,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Cross.png"/>
                                 <connections>
+                                    <action selector="Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C0L-q3-96k"/>
                                     <action selector="action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FOb-RZ-if0"/>
                                 </connections>
                             </button>
@@ -78,6 +84,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Cross.png"/>
                                 <connections>
+                                    <action selector="Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0n1-Oa-H6j"/>
                                     <action selector="action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eRA-xu-yW3"/>
                                 </connections>
                             </button>
@@ -86,6 +93,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Cross.png"/>
                                 <connections>
+                                    <action selector="Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uok-Yt-H56"/>
                                     <action selector="action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2gC-nl-Z8b"/>
                                 </connections>
                             </button>
@@ -94,6 +102,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Cross.png"/>
                                 <connections>
+                                    <action selector="Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qtO-op-KiI"/>
                                     <action selector="action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OyL-QF-8hV"/>
                                 </connections>
                             </button>
@@ -103,7 +112,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="228" y="139"/>
+            <point key="canvasLocation" x="17" y="18"/>
         </scene>
     </scenes>
     <resources>
