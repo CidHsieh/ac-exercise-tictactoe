@@ -65,7 +65,18 @@ class ViewController: UIViewController{
     
     @IBAction func playAgain(_ sender: AnyObject)
     {
+        gameState = [0, 0, 0, 0, 0, 0, 0, 0, 0]
+        gameIsActive = true
+        activePlayer = 1
         
+        playAgainButton.isHidden = true
+        label.isHidden = true
+        
+        for i in 1...9
+        {
+            let button = view.viewWithTag(i) as! UIButton
+            button.setImage(nil, for: UIControlState())
+        }
     }
     
     
