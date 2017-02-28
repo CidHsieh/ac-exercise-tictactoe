@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Tic Tac Toe
 //
-//  Created by Cid Hsieh on 2017/2/26.
+//  Created by Cid Hsieh on 2017/2/28.
 //  Copyright © 2017年 Cid Hsieh. All rights reserved.
 //
 
