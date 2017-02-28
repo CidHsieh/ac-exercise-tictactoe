@@ -14,10 +14,13 @@ class ViewController: UIViewController{
     var gameState = [0, 0, 0, 0, 0, 0, 0, 0, 0]
     let winningCombinations = [[0, 1, 2], [3, 4, 5], [6, 7, 8], [0, 3, 6], [1, 4, 7], [2, 5, 8], [0, 4, 8], [2, 4, 6]]
     var gameIsActive = true
+    
+    
+    @IBOutlet weak var label: UILabel!
 
     @IBAction func action(_ sender: AnyObject)
     {
-        if gameState[sender.tag - 1] == 0
+        if gameState[sender.tag - 1] == 0 && gameIsActive == true
         {
             gameState[sender.tag - 1] = activePlayer
             
@@ -43,16 +46,29 @@ class ViewController: UIViewController{
                 if gameState[combination[0]] == 1
                 {
                     //cross has won
-                    print("cross")
+                    label.text = "CROSS HAS WON!"
                 }
                 else
                 {
                     //circle has won
-                    print("circle")
+                    label.text = "CIRCLE HAS WON"
                 }
+                
+                playAgainButton.isHidden = false
+                label.isHidden = false
             }
         }
     }
+    
+    
+    @IBOutlet weak var playAgainButton: UIButton!
+    
+    @IBAction func playAgain(_ sender: AnyObject)
+    {
+        
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
